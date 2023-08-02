@@ -13,10 +13,24 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
+      - name: Cache LaTeX Dependencies
+        uses: actions/cache@v2
+        with:
+          path: /usr/share/texlive
+          key: latex-dependencies
+
       - name: Install LaTeX Dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
         run: sudo apt-get update && sudo apt-get install -y texlive-xetex texlive-fonts-recommended
 
+      - name: Cache Pandoc
+        uses: actions/cache@v2
+        with:
+          path: /usr/local/bin/pandoc
+          key: pandoc
+
       - name: Install Pandoc
+        if: steps.cache.outputs.cache-hit != 'true'
         run: |
           wget https://github.com/jgm/pandoc/releases/download/2.14.1/pandoc-2.14.1-linux-amd64.tar.gz
           tar xvzf pandoc-2.14.1-linux-amd64.tar.gz
@@ -24,7 +38,7 @@ jobs:
           rm -rf pandoc-2.14.1*
 
       - name: Convert Markdown to PDF
-        run: pandoc resume.md -o resume.pdf
+        run: pandoc README.md -o resume.pdf
 
       - name: Configure Git
         run: |
