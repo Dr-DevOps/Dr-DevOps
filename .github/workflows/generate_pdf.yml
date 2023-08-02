@@ -17,13 +17,13 @@ jobs:
       run: |
         # You might need to install the necessary tools for PDF generation.
         # For example, if you're using pandoc, you can install it with:
-        # apt-get -y install pandoc
+        apt-get -y install pandoc
 
     - name: Generate PDF
       run: |
         # Convert your Markdown file (resume.md) to PDF using the appropriate tool.
         # For example, if you're using pandoc, the command would be:
-        # pandoc -s resume.md -o resume.pdf
+        pandoc -s resume.md -o resume.pdf
 
     - name: Save PDF artifact
       uses: actions/upload-artifact@v2
