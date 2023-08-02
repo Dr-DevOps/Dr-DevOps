@@ -1,32 +1,39 @@
-name: Generate PDF
+name: Generate and Upload PDF
 
 on:
   push:
     branches:
-      - main  # Replace 'main' with your default branch name if different.
+      - main
 
 jobs:
-  build:
+  generate_and_upload_pdf:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
-    - name: Install dependencies
-      run: |
-        # You might need to install the necessary tools for PDF generation.
-        # For example, if you're using pandoc, you can install it with:
-        apt-get -y install pandoc
+      - name: Install LaTeX Dependencies
+        run: sudo apt-get update && sudo apt-get install -y texlive-xetex texlive-fonts-recommended
 
-    - name: Generate PDF
-      run: |
-        # Convert your Markdown file (resume.md) to PDF using the appropriate tool.
-        # For example, if you're using pandoc, the command would be:
-        pandoc -s resume.md -o resume.pdf
+      - name: Install Pandoc
+        run: |
+          wget https://github.com/jgm/pandoc/releases/download/2.14.1/pandoc-2.14.1-linux-amd64.tar.gz
+          tar xvzf pandoc-2.14.1-linux-amd64.tar.gz
+          sudo mv pandoc-2.14.1/bin/pandoc /usr/local/bin/
+          rm -rf pandoc-2.14.1*
 
-    - name: Save PDF artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: resume-pdf
-        path: resume.pdf
+      - name: Convert Markdown to PDF
+        run: pandoc resume.md -o resume.pdf
+
+      - name: Configure Git
+        run: |
+          git config user.name "Your Name"
+          git config user.email "your.email@example.com"
+
+      - name: Add PDF to Repository
+        run: |
+          git checkout -b pdf
+          git add resume.pdf
+          git commit -m "Add generated PDF"
+          git push origin pdf
