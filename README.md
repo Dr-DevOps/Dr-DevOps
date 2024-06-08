@@ -1,65 +1,104 @@
-[Your Name]
-[Your Contact Information - Email, Phone Number, LinkedIn, GitHub]
+# 🎨 Vinayak Singh's DevOps Artistry 🎨
 
-[Profile Summary]
-🧙‍♂️ DevOps Sorcerer | Cloud Alchemist | Automation Enthusiast
-Transforming chaos into harmony with the power of DevOps magic!
+Welcome to my GitHub portfolio! I'm Vinayak Singh, a DevOps Engineer who crafts scalable, reliable, and secure infrastructure with the precision of an artist. Dive into my world of code, cloud, and containers, where each project is a masterpiece.
 
-[DevOps Projects]
-🌟 Project: [Project Name 1]
-   - [Description of the project]
-   - [Key Technologies Used]
+## About the Artist 🎨
 
-🌟 Project: [Project Name 2]
-   - [Description of the project]
-   - [Key Technologies Used]
+**Vinayak Singh**  
+**DevOps Engineer | AWS Certified Solution Architect (Associate) | Cloud Virtuoso**  
+Location: Delhi, India  
+📧 [vinayakclear@gmail.com](mailto:vinayakclear@gmail.com) | 📞 +91-9899961721  
+🌐 [LinkedIn](https://www.linkedin.com/in/drdevops/) | [Stack Overflow](https://stackoverflow.com/users/14925235/vinayak-s) | [Virtual Internships](https://www.virtualinternships.com)
 
-🌟 Project: [Project Name 3]
-   - [Description of the project]
-   - [Key Technologies Used]
+As a DevOps artist, I blend technology and innovation to create robust infrastructure. My palette includes tools like Terraform, Docker, and Kubernetes, painting a landscape of efficiency and resilience.
 
-... Add more magical DevOps projects as needed ...
+## My Palette 🎨
 
-[Skills & Spells]
-🔮 DevOps Enchantments:
-   - Continuous Integration/Continuous Deployment (CI/CD) using Jenkins, GitLab CI/CD, GitHub Actions.
-   - Containerization with Docker and orchestration using Kubernetes and Helm.
+- **Cloud Masterpieces**: AWS, GCP
+- **CI/CD Symphony**: Jenkins, GitLab, GitHub Actions, Bitbucket Pipeline, ArgoCD Workflow
+- **Version Control Canvas**: GitLab, BitBucket, GitHub
+- **IaC Sculpture**: Terraform
+- **Container Orchestration**: Docker, AWS ECS, Kubernetes (AWS EKS)
+- **Log Aggregation Mural**: AWS CloudWatch, Logz.io, EFK Stack, ELK Stack
+- **Monitoring & Alerts**: AWS CloudWatch, Prometheus, Grafana, DataDog
+- **Database Designs**: MySQL, AWS Aurora, MongoDB, Kafka, Elasticsearch, Redis
+- **Security Strokes**: KubeSeal (EKS), HashiCorp Vault, Security Audits
+- **Code Crafting**: Bash (Shell Scripting), YAML, Python, Helm, Go (learning)
+- **Operating Systems**: Linux (Ubuntu, Amazon Linux 2)
+- **Creative Tools**: Slack, ClickUp, Notion, Jira, Confluence, Metabase
 
-🔮 Cloud Alchemy:
-   - AWS spellcasting to summon scalable infrastructure and serverless architecture.
-   - Azure incantations for cloud services and resource management.
+## SecOps Toolbox 🔐
 
-🔮 Automation Charms:
-   - Infrastructure as Code (IaC) with Terraform and CloudFormation.
-   - Configuration Management with Ansible to maintain order in the realms.
+- **Cloud Misconfiguration**: ScoutSuite, Prowler
+- **Cloud Visualization**: Stempipe
+- **Cloud Inventory**: Cloudfox
+- **IAM Policy**: Clouds planning, IAM Access Analyzer
+- **Cloud Governance**: SCPs
+- **Event-Based Alerting**: AWS Survival Kit (EventBridge + Lambda)
+- **SAST**: Semgrep
+- **Secret Scanning**: GitLeaks
+- **Code Quality**: SonarQube
+- **IaC Security**: TFSec
+- **Image Scanning**: Trivy
 
-🔮 Monitoring & Insights:
-   - Divination using Prometheus, Grafana, and the ELK Stack for proactive system insights.
-   - Alchemizing data into actionable insights with DataDog and New Relic.
+## Masterpieces 🖼️
 
-[Education]
-🎓 Bachelor of Sorcery in DevOps and Cloud Magic
-   [Your University], [Year of Graduation]
+### DevOps Engineer | Virtual Internships Partners Ltd (Series A Startup)
+**June 2022 – Present | Remote, India**
 
-[Awards & Achievements]
-🏆 DevOps Magician of the Year: Recognized for exceptional contributions to the DevOps community.
-🏆 Spellweaver Award: Best automation solution that saved 200 hours of manual work.
+- Sculpted infrastructure with Terraform.
+- Painted real-time EKS clusters.
+- Crafted ArgoCD workflows for seamless deployments.
+- Designed an EFK stack for clear visibility.
+- Reduced AWS costs by 30% with optimization brushstrokes.
+- Implemented incident response frameworks, reducing MTTD by 25%.
 
-[Extracurricular Activities]
-🧙‍♂️ DevOps Guild: Co-founded a community to share DevOps wisdom and learn new enchantments.
-🧙‍♂️ Open Source Spellcasting: Contributed to various open-source projects to enhance DevOps tools.
+### DevOps Engineer | PRODT Consulting Services Pvt Ltd
+**June 2021 – February 2022 | Remote, India**
 
-[Personal Interests]
-🌌 Ancient Runes: Studying ancient runes to discover hidden secrets in the code.
-🌌 Potion Brewing: Mixing DevOps ingredients to create the perfect deployment elixir.
+- Built AWS infrastructure using ECS and BitBucket Pipeline.
+- Enhanced security and access control for user authentication.
+- Migrated Jenkins jobs to GitHub Actions, refining CI/CD processes.
 
-[Testimonials from Fellow Wizards]
-🔥 "Your Name's DevOps magic has transformed our development process and made deployments seamless." - Merlin, Chief Wizard
+### Associate DevOps Engineer | Skyocean Shipping Pvt Ltd
+**April 2020 – May 2021 | New Delhi, India**
 
-🔥 "With your enchanting automation, we no longer fear the deployment dragons! You're a true DevOps wizard." - Morgan Le Fay, Senior Developer
+- Established CI/CD processes on Digital Ocean.
+- Upgraded WordPress architecture to AWS EC2 and RDS.
+
+### System Administrator | Staunch Eventz Pvt Ltd
+**April 2017 – March 2020 | Noida, India**
+
+- Deployed websites on Digital Ocean using LEMP Stack.
+- Managed on-premises IT infrastructure.
+
+## Education 🎓
+
+**Bachelor of Computer Application (Cloud Computing)**  
+Sikkim Manipal University of Distance Education, March 2020
+
+## Certifications 🏅
+
+- **AWS Certified Solution Architect – Associate** (Valid: December 2021 – December 2024)
+
+## Professional Attributes 🎨
+
+- Quick problem-solving brushstrokes and a keen eye for detail.
+- Excellent communication skills for clear and collaborative creation.
+- Lifelong learner, constantly adding new colors to my palette.
+- Proven leadership in coaching and guiding teams.
+
+## Projects 🌟
+
+Explore my repositories to see my creative process, ranging from infrastructure automation to CI/CD pipelines and Kubernetes orchestration.
+
+## Connect with Me! 📬
+
+Reach out via [LinkedIn](https://www.linkedin.com/in/drdevops/) or [email](mailto:vinayakclear@gmail.com). Let's collaborate on new masterpieces and innovate together!
 
 ---
 
-Welcome to my enchanted DevOps realm! My passion for automating tasks and weaving cloud magic has allowed me to manifest scalable and reliable systems. I believe that combining technology with creativity brings the most magical results.
+Thank you for visiting my portfolio. I look forward to creating something extraordinary with you!
 
-Now, let's cast the DevOps spells and weave a future of seamless deployments and harmonious software delivery! 🌟✨
+Best regards,  
+**Vinayak Singh**
