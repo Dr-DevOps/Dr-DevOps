@@ -1,16 +1,16 @@
-# 🎨 Vinayak Singh's DevOps Artistry 🎨
+# 🎨 Vinayak Singh 🎨
 
-Welcome to my GitHub portfolio! I'm Vinayak Singh, a DevOps Engineer who crafts scalable, reliable, and secure infrastructure with the precision of an artist. Dive into my world of code, cloud, and containers, where each project is a masterpiece.
+Welcome to my GitHub portfolio! I'm Vinayak Singh, a DevOps Engineer who crafts scalable, reliable, and secure infrastructure with the precision of an Engineer. Dive into my world of code, cloud, and containers, where each project is a masterpiece.
 
-## About the Artist 🎨
+## About me 🎨
 
 **Vinayak Singh**  
 **DevOps Engineer | AWS Certified Solution Architect (Associate) | Cloud Virtuoso**  
 Location: Delhi, India  
 📧 [vinayakclear@gmail.com](mailto:vinayakclear@gmail.com) | 📞 +91-9899961721  
-🌐 [LinkedIn](https://www.linkedin.com/in/drdevops/) | [Stack Overflow](https://stackoverflow.com/users/14925235/vinayak-s) | [Virtual Internships](https://www.virtualinternships.com)
+🌐 [LinkedIn](https://www.linkedin.com/in/drdevops/) | [Stack Overflow](https://stackoverflow.com/users/14925235/vinayak-s)
 
-As a DevOps artist, I blend technology and innovation to create robust infrastructure. My palette includes tools like Terraform, Docker, and Kubernetes, painting a landscape of efficiency and resilience.
+As a DevOps Engineer, I blend technology and innovation to create robust infrastructure. My palette includes tools like Terraform, Docker, and Kubernetes, painting a landscape of efficiency and resilience.
 
 ## My Palette 🎨
 
@@ -43,7 +43,7 @@ As a DevOps artist, I blend technology and innovation to create robust infrastru
 
 ## Masterpieces 🖼️
 
-### DevOps Engineer | Virtual Internships Partners Ltd (Series A Startup)
+### DevOps Engineer | [Virtual Internships Partners Ltd (Series A Startup)](https://www.virtualinternships.com)
 **June 2022 – Present | Remote, India**
 
 - Sculpted infrastructure with Terraform.
