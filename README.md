@@ -79,7 +79,7 @@ Sikkim Manipal University of Distance Education, March 2020
 
 ## Certifications 🏅
 
-- **[AWS Certified Solution Architect – Associate**](https://www.credly.com/badges/c5f355ef-a413-4109-b4ce-b3801365da31) (Valid: December 2021 – December 2024)
+- **[AWS Certified Solution Architect – Associate](https://www.credly.com/badges/c5f355ef-a413-4109-b4ce-b3801365da31)** (Valid: December 2021 – December 2024)
 
 ## Professional Attributes 🎨
 
